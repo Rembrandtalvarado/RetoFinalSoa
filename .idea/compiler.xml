@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="RetoFinalSoa" target="17" />
+      <module name="RetoFinalSoa" target="9.04" />
     </bytecodeTargetLevel>
   </component>
 </project>
