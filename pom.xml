@@ -4,8 +4,8 @@
 	<artifactId>RetoFinalSoa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
-		<maven.compiler.source>9.04</maven.compiler.source>
-		<maven.compiler.target>9.04</maven.compiler.target>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
 		<aspectj.version>1.8.10</aspectj.version>
 	</properties>
 	<build>
