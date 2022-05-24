@@ -17,8 +17,6 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 
-
-@Listeners({AllureListener.class})
 public class BaseTest extends BaseClass {
 	
 	public WebDriver driver;
@@ -32,7 +30,7 @@ public class BaseTest extends BaseClass {
 	public void condition() throws Exception {
 		BaseClass baseClass = new BaseClass();
 		baseClass.initializeDriver();
-		
+		driver = getDriver();
 		driver.get("https://www.themoviedb.org");
 		mainPage = new MainPage(driver);
 		loginPage = new LoginPage(driver);
